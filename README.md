@@ -8,8 +8,9 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 ## Ementa do Curso
 
 * Conceito sobre LAKEHOUSE
-* Introcução ao Databricks SQL - Menu e Módulos
-* CUsto Eficiente (Clusters, EndPoints e SQL Serverless)
+* Introdução ao Databricks SQL - Menu e Módulos
+* Custo Eficiente (Clusters, EndPoints e SQL Serverless)
+* Governança (Unity Catalog)
 * Editor de Consultas (Query Tools)
 * Catálogo de Consultas (Query Catalog)
 * Histórico de Execução das Consultas (Query History)
