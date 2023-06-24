@@ -52,9 +52,29 @@ COMMENT "Tabela auxiliar do porte das empresas"
  INSERT INTO bronze_porte_empresa VALUES (1, "NAO INFORMADO") ;
  INSERT INTO bronze_porte_empresa VALUES (2, "MICRO EMPRESA") ;
  INSERT INTO bronze_porte_empresa VALUES (3, "PEQUENO PORTE") ;
- INSERT INTO bronze_porte_empresa VALUES (5, "OUTROS") ;
-  
+ INSERT INTO bronze_porte_empresa VALUES (4, "NAO SEI") ;
+ INSERT INTO bronze_porte_empresa VALUES (5, "NULL") ;
+```
 
+ ## Exercício 01.04 - Verificando o conteúdo da TABELA
+
+ ``` sql
+SELECT * 
+FROM bronze_porte_empresa 
+ORDER BY porte_empresa
+```
+
+ ## Exercício 01.05 - Alterando o conteúdo da TABELA
+
+ ``` sql
+UPDATE bronze_porte_empresa  
+SET desc_porte_empresa = "OUTROS" 
+WHERE porte_empresa = 5;
+
+
+DELETE 
+FROM bronze_porte_empresa 
+WHERE porte_empresa = 4;
 ```
 
 ## Exercício 01 - Criação do database
