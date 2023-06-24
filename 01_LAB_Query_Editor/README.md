@@ -15,30 +15,44 @@ O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab01_uc.png">
 
-| -- | -- |
+
 | Tópico | Comando |
 | -- | -- |
 | **Catálogo** | CREATE CATALOG <nome_catalogo> |
 | **Schema** | CREATE DATABASE IF NOT EXISTS <nome_catalogo>.<nome_database>; |
-| **Tabela** | CREATE TABLE IF NOT EXISTS <nome_catalogo>.<nome_database>.<nome_tabela>; |
-| -- | -- |
+| **Tabela** | CREATE OR REPLACE TABLE  <nome_catalogo>.<nome_database>.<nome_tabela>; |
+| **View** |  CREATE OR REPLACE VIEW  <nome_catalogo>.<nome_database>.<nome_tabela> AS ...; |
+
+#### Referência:
+* [Databricks Help - DDl Syntax](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-table.html)
 
 ## Exercício 01.01 - Criação do database
 
 ``` sql
-
 USE CATALOG academy;
 
 CREATE DATABASE IF NOT EXISTS <seu_nome_login>;
 
-GRANT ALL PRIVILEGES ON DATABASE <seu_nome>_dbacademy TO `learner’s_username`;
+USE <seu_nome_login>;
+```
 
-USE <seu_nome>_dbacademy;
+## Exercício 01.02 - Criação da Tabela
 
+``` sql
+CREATE OR REPLACE TABLE bronze_porte_empresa AS
+  ( porte_empresa INTEGER COMMENT "codigo do porte da empresa",
+    desc_porte_empresa STRING COMMENT "codigo do porte da empresa" )
+COMMENT "Tabela auxiliar do porte das empresas"
+```
 
-CREATE TABLE intro_to_databricks_sql_gym_logs
-USING JSON
-LOCATION ‘wasbs://courseware@dbacademy.blob.core.windows.net/introduction-to-databricks-sql/v01/gym-logs’;
+ ## Exercício 01.02 - Inserindo dados na Tabela através de SQL INSERT
+
+ ``` sql
+ INSERT INTO bronze_porte_empresa VALUES (1, "NAO INFORMADO") ;
+ INSERT INTO bronze_porte_empresa VALUES (2, "MICRO EMPRESA") ;
+ INSERT INTO bronze_porte_empresa VALUES (3, "PEQUENO PORTE") ;
+ INSERT INTO bronze_porte_empresa VALUES (5, "OUTROS") ;
+  
 
 ```
 
