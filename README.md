@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/labs/main/images/azure_lab.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.jpg">
 
 # Databricks SQL Labs 
 
