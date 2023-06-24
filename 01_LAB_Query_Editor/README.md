@@ -11,7 +11,7 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query_) da plataforma Databricks, utilizando a linguagem SQL (e as interfaces visuais), explorando os potenciais Analíticos. </br>
 </br>
 
-## Sessão:  Estrutura TABELAS, DATABASE e CATÁLOGOS
+## Sessão 01:  Estrutura TABELAS, DATABASE e CATÁLOGOS
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab01_uc.png">
 
@@ -24,7 +24,7 @@ O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query
 | **View** |  CREATE OR REPLACE VIEW  <nome_catalogo>.<nome_database>.<nome_tabela> AS ...; |
 
 #### Referência:
-* [Databricks Help - DDl Syntax](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-table.html)
+* [Databricks Help - DDL Syntax](https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-create-table.html)
 
 ## Exercício 01.01 - Criação do database
 
@@ -45,7 +45,7 @@ CREATE OR REPLACE TABLE bronze_porte_empresa AS
 COMMENT "Tabela auxiliar do porte das empresas"
 ```
 
- ## Exercício 01.02 - Inserindo dados na Tabela através de SQL INSERT
+ ## Exercício 01.03 - Inserindo dados na Tabela através de SQL INSERT
 
  ``` sql
  INSERT INTO bronze_porte_empresa VALUES (1, "NAO INFORMADO") ;
