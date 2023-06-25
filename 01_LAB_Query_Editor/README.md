@@ -11,6 +11,11 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query_) da plataforma Databricks, utilizando a linguagem SQL (e as interfaces visuais), explorando os potenciais Analíticos. </br>
 </br>
 
+
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab01_editor_sql.png">
+
+Os exercícios deverão ser executados na opção do Menu lateral "SQL Editor".
+</br>
 ## Sessão 01:  Estrutura TABELAS, DATABASE e CATÁLOGOS
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab01_uc.png">
