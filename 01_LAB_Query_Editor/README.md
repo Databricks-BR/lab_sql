@@ -77,6 +77,25 @@ FROM bronze_porte_empresa
 WHERE porte_empresa = 4;
 ```
 
+## Exercício 01.06 - Visualizando o Histórico de Atualizações da tabela
+
+ ``` sql
+DESCRIBE HISTORY bronze_porte_empresa 
+```
+
+## Exercício 01.07 - Visualizando o conteúdo da tabela na versão anterior (TIME TRAVEL)
+
+ ``` sql
+SELECT * FROM bronze_porte_empresa VERSION AS OF 4
+```
+
+## Exercício 01.08 - RESTAURANDO o conteúdo da tabela na versão anterior (TIME TRAVEL)
+
+ ``` sql
+RESTORE TABLE bronze_porte_empresa TO VERSION AS OF 4 
+```
+
+
 ## Exercício 01 - Criação do database
 
 ``` sql
