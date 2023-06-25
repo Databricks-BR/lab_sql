@@ -86,13 +86,25 @@ DESCRIBE HISTORY bronze_porte_empresa
 ## Exercício 01.07 - Visualizando o conteúdo da tabela na versão anterior (TIME TRAVEL)
 
  ``` sql
-SELECT * FROM bronze_porte_empresa VERSION AS OF 4
+SELECT * FROM bronze_porte_empresa VERSION AS OF 5
 ```
 
 ## Exercício 01.08 - RESTAURANDO o conteúdo da tabela na versão anterior (TIME TRAVEL)
 
  ``` sql
-RESTORE TABLE bronze_porte_empresa TO VERSION AS OF 4 
+RESTORE TABLE bronze_porte_empresa TO VERSION AS OF 5 
+```
+
+## Exercício 01.09 - Visualizando as propriedades da Tabela
+
+ ``` sql
+DESCRIBE DETAIL bronze_porte_empresa 
+```
+
+## Exercício 01.10 - Visualizando as informações DETALHADAS da Tabela
+
+ ``` sql
+DESCRIBE TABLE EXTENDED bronze_porte_empresa
 ```
 
 
