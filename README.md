@@ -25,6 +25,11 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 * www.databricks.com
 * https://learn.microsoft.com/pt-br/azure/databricks/scenarios/what-is-azure-databricks
 
+## Pesquisa de Satisfação
+
+Agradecemos a sua participação e seria importante ter um feedback seu:
+[Preencha a Pesquisa de Satisfação](https://forms.gle/GxG4f5kMB5LTwVYKA)
+
 ## Comunidade Databricks Brasil
 
 - Junte-se ao canal [Databricks Comunidade Brasil](https://bit.ly/databricks-slack-br) no Slack!
