@@ -14,26 +14,4 @@ O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query
 
 
 
-## Exercício 01.01 - Criação do database
-
-``` sql
-USE CATALOG academy;
-
-CREATE DATABASE IF NOT EXISTS <seu_nome_login>;
-
-USE <seu_nome_login>;
-```
-
-## Exercício 01.02 - Criação da Tabela
-
-``` sql
-
-CREATE OR REPLACE TABLE bronze_porte_empresa 
-  ( porte_empresa      INT    COMMENT "codigo do porte da empresa",
-    desc_porte_empresa STRING COMMENT "descricao do porte da empresa" )
-COMMENT "Tabela auxiliar do porte das empresas"
-```
-
-
-
 
