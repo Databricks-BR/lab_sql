@@ -23,10 +23,10 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 
 ## Referências Adicionais
 
-* www.databricks.com
-* https://learn.microsoft.com/pt-br/azure/databricks/scenarios/what-is-azure-databricks
-
-  
+* [Página principal do Databrick SQL](https://www.databricks.com/br/product/databricks-sql)
+* [What is Data Warehousing on Databricks](https://docs.databricks.com/sql/index.html#what-is-data-warehousing-on-databricks)
+* [SQL Language reference - Inglês](https://docs.databricks.com/sql/language-manual/index.html)
+* [SQL Language reference - Português](https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual)
 
 ## Pesquisa de Satisfação
 
