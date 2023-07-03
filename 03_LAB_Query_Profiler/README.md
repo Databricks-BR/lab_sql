@@ -23,15 +23,40 @@ USE CATALOG academy;
 
 USE <seu_nome_login>;
 
-
-select est.*, 
-       razao_social,natureza_juridica,qualificacao_responsavel,capital_social,porte_empresa,ente_federativo_responsavel,
-       cnae.descricao cnae_descricao
+create or replace table silver_empresas as
+select est.cnpj_basico                   COMMENT "número do CNPJ raiz de 8 posições",
+       matriz_filial                     COMMENT "Nome da Matriz",
+       nome_fantasia                     COMMENT "Nome fantasia da empresa",
+       razao_social                      COMMENT "Nome da Razão Social",
+       codigo_situacao_cadastral         COMMENT "Código da Situação Cadastral",
+       data_situacao_cadastral           COMMENT "Data da Situação Cadastral",
+       motivo_situacao_cadastral         COMMENT "Motivo da Situação Cadastral",
+       data_inicio_atividade             COMMENT "Data de início da atividade",
+       cnae_principal                    COMMENT "CNAE Código da Natureza Economica",
+       cnae.descricao cnae_descricao     COMMENT "Descrição do CNAE",
+       tipo_logradouro                   COMMENT "Endereço - Tipo de Logradouro",
+       logradouro                        COMMENT "Endereço - Nome do Logradouro",
+       numero                            COMMENT "Endereço - Número do Logradouro",
+       bairro                            COMMENT "Endereço - Bairro do Logradouro",
+       cep                               COMMENT "Endereço - número do CEP",
+       uf                                COMMENT "Endereço - Unidade Federativa",
+       codigo_municipio_siafi            COMMENT "Código do Município SIAFI",
+       natureza_juridica                 COMMENT "Código da Natureza Jurídica",
+       nat.descricao natureza_descricao  COMMENT "Descrição da Natureza Jurídica"
+       qualificacao_responsavel          COMMENT "Qualificação do Responsável",
+       capital_social                    COMMENT "Valor do Capital Social",
+       emp.porte_empresa                 COMMENT "Código do Porte da Empresa",
+       porte.desc_porte_empresa          COMMENT "Descrição do Porte da Empresa",
+       ente_federativo_responsavel       COMMENT "Ente Federativo Responsável"       
 from bronze_estabelecimentos est
 join bronze_empresas emp
 on est.cnpj_basico = emp.cnpj_basico
 left join bronze_cnae cnae
-on est.cnae_principal = cnae.cod_cnae;
+on est.cnae_principal = cnae.cod_cnae
+left join bronze_porte_empresa porte
+on emp.porte_empresa = porte.porte_empresa
+left join bronze_naturezas nat
+on emp.natureza_juridica = nat.codigo;
 
 
 ```
