@@ -7,19 +7,19 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 
 ## Ementa do Curso
 
-Tabela 
+| # | Tópicos | Duração |
+| -- | -- | -- |
+| 1 | Conceio de Lakehouse, Databricks SQL, Custo eficiente, SQL Serverless, Menus e UI | 30 min |
+| 2 | Laboratório 01 - Comandos básicos em SQL no  Editor de SQL e Unity Catalog        | 30 min |
+| 3 | Laboratório 02 - Ingestão de tabelas CSV, Uso do Notebook e Data Explorer         | 30 min |
+| 4 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler              | 30 min |
+| 5 | Laboratório 04 - Criação de um Alerta                                             | 30 min |
+| 6 | Laboratório 05 - Criação de um Painel (Dashboard)                                 | 30 min |
+| 7 | Considerações finais e Referências Adicionais                                     | 30 min |
+| 8 | Perguntas e Respostas                                                             | 15 min |
+| 9 | Pesquisa de Satisfação                                                             | 5 min |
 
-| Tópico | Comando | xxx |
-| 1 | Conceio de Lakehouse, Databricks SQL, Custo eficiente, Menus | 30 min |
-| 2 | Laboratório 01 - Comandos básicos em SQL no  Editor de SQL | 30 min |
-| 3 | Laboratório 02 - Ingestão de CSV, Uso do Notebook e Data Explorer | 30 min |
-| 4 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler | 30 min |
-| 5 | Laboratório 04 - Criação de um Alerta | 30 min |
-| 6 | Laboratório 05 - Criação de um Painel (Dashboard) | 30 min |
-| 7 | Considerações finais e Referências Adicionais | 30 min |
-| 8 | Perguntas e Respostas  | 15 min |
-| 9 | Pesquisa de Satisfação  | 5 min |
-
+</br>
 
 ## Referências Adicionais
 
