@@ -23,31 +23,32 @@ USE CATALOG academy;
 
 USE <seu_nome_login>;
 
-create or replace table silver_empresas as
-select est.cnpj_basico                   COMMENT "número do CNPJ raiz de 8 posições",
-       matriz_filial                     COMMENT "Nome da Matriz",
-       nome_fantasia                     COMMENT "Nome fantasia da empresa",
-       razao_social                      COMMENT "Nome da Razão Social",
-       codigo_situacao_cadastral         COMMENT "Código da Situação Cadastral",
-       data_situacao_cadastral           COMMENT "Data da Situação Cadastral",
-       motivo_situacao_cadastral         COMMENT "Motivo da Situação Cadastral",
-       data_inicio_atividade             COMMENT "Data de início da atividade",
-       cnae_principal                    COMMENT "CNAE Código da Natureza Economica",
-       cnae.descricao cnae_descricao     COMMENT "Descrição do CNAE",
-       tipo_logradouro                   COMMENT "Endereço - Tipo de Logradouro",
-       logradouro                        COMMENT "Endereço - Nome do Logradouro",
-       numero                            COMMENT "Endereço - Número do Logradouro",
-       bairro                            COMMENT "Endereço - Bairro do Logradouro",
-       cep                               COMMENT "Endereço - número do CEP",
-       uf                                COMMENT "Endereço - Unidade Federativa",
-       codigo_municipio_siafi            COMMENT "Código do Município SIAFI",
-       natureza_juridica                 COMMENT "Código da Natureza Jurídica",
-       nat.descricao natureza_descricao  COMMENT "Descrição da Natureza Jurídica"
-       qualificacao_responsavel          COMMENT "Qualificação do Responsável",
-       capital_social                    COMMENT "Valor do Capital Social",
-       emp.porte_empresa                 COMMENT "Código do Porte da Empresa",
-       porte.desc_porte_empresa          COMMENT "Descrição do Porte da Empresa",
-       ente_federativo_responsavel       COMMENT "Ente Federativo Responsável"       
+CREATE OR REPLACE TABLE silver_empresas AS
+SELECT 
+  est.cnpj_basico AS cnpj_basico,
+  matriz_filial AS nome_matriz,
+  nome_fantasia AS nome_fantasia_empresa,
+  razao_social AS nome_razao_social,
+  codigo_situacao_cadastral AS cod_situacao_cadastral,
+  data_situacao_cadastral AS data_situacao_cadastral,
+  motivo_situacao_cadastral AS motivo_situacao_cadastral,
+  data_inicio_atividade AS data_inicio_atividade,
+  cnae_principal AS cnae_principal,
+  cnae.descricao AS cnae_descricao,
+  tipo_logradouro AS endereco_tipo_logradouro,
+  logradouro AS endereco_nome_logradouro,
+  numero AS endereco_numero_logradouro,
+  bairro AS endereco_bairro_logradouro,
+  cep AS endereco_numero_cep,
+  uf AS endereco_unidade_federativa,
+  codigo_municipio_siafi AS codigo_municipio_siafi,
+  natureza_juridica AS cod_natureza_juridica,
+  nat.descricao AS desc_natureza_juridica,
+  qualificacao_responsavel AS qualificacao_responsavel,
+  capital_social AS val_capital_social,
+  emp.porte_empresa AS cod_porte_empresa,
+  porte.desc_porte_empresa AS desc_porte_empresa,
+  ente_federativo_responsavel AS ente_federativo_responsavel
 from bronze_estabelecimentos est
 join bronze_empresas emp
 on est.cnpj_basico = emp.cnpj_basico
