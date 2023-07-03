@@ -15,7 +15,7 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 | 4 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler              | 30 min |
 | 5 | Laboratório 04 - Criação de um Alerta                                             | 30 min |
 | 6 | Laboratório 05 - Criação de um Painel (Dashboard)                                 | 30 min |
-| 7 | Considerações finais e Referências Adicionais                                     | 30 min |
+| 7 | Considerações finais, Integração de Soluções e Referências Adicionais             | 30 min |
 | 8 | Perguntas e Respostas                                                             | 15 min |
 | 9 | Pesquisa de Satisfação                                                             | 5 min |
 
