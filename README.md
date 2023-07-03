@@ -26,6 +26,8 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 * www.databricks.com
 * https://learn.microsoft.com/pt-br/azure/databricks/scenarios/what-is-azure-databricks
 
+  
+
 ## Pesquisa de Satisfação
 
 Agradecemos a sua participação e seria importante ter um feedback seu:
@@ -40,4 +42,8 @@ Agradecemos a sua participação e seria importante ter um feedback seu:
    <a href="https://github.com/Databricks-BR"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/databricks-br.png" style="width: 40px; height: 40px;"></a>  <a href="https://www.linkedin.com/groups/14100135"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_linkedin.png" style="width: 35px; height: 35px;"></a>  <a href="https://www.meetup.com/pt-BR/databricks-brasil-oficial"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_meetup.png" style="height: 40px;"></a>  <a href="https://bit.ly/databricks-slack-br"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_slack.png" style="width: 35px; height: 35px;"></a>  <a href="https://www.youtube.com/channel/UCH3cq9mit-0UkTu1mTki20Q"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_youtube.png" style="height: 38px;"></a>
 
 
+## e-Books
 
+<a href="https://www.databricks.com/resources/ebook/migrating-from-a-data-warehouse-to-a-data-lakehouse"><img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/ebook1.png" style="height: 300px;" ></a> 
+<a href="https://www.databricks.com/resources/ebook/data-lakehouse-is-your-next-data-warehouse"><img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/ebook2.png" style="height: 300px;"></a> 
+<a href="https://www.databricks.com/resources/ebook/rise-data-lakehouse"><img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/ebook3.png" style="height: 300px;"></a> 
