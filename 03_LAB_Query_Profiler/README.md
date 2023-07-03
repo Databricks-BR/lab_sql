@@ -67,22 +67,24 @@ on emp.natureza_juridica = nat.codigo;
 
 No Menu, escolha a opção "Query History"
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_1.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_1.png" style="height: 200px;>
 
 Filtre as Consultas (p.ex.  Selecione suas próprias Queries):
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_2.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_2.png" style="height: 300px;>
 
 ## Exercício 03.03 - Analisando o Detalhe da Execução
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_3.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_3.png" style="height: 300px;>
 
 
 ## Exercício 03.04 - Analisando o Query Profiler
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_4.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_4.png" style="height: 300px;>
 
 
 ## Exercício 03.05 - Analisando o Plano de Execução
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_5.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_5.png" style="height: 300px;>
+
+
