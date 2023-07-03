@@ -7,20 +7,19 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 
 ## Ementa do Curso
 
-* Conceito sobre LAKEHOUSE
-* Introdução ao Databricks SQL - Menu e Módulos
-* Custo Eficiente (Clusters, EndPoints e SQL Serverless)
-* Governança (Unity Catalog)
-* Editor de Consultas (Query Tools)
-* Catálogo de Consultas (Query Catalog)
-* Histórico de Execução das Consultas (Query History)
-* Avaliação e Desempenho das Consultas (Query Profile)
-* Criação de Alertas
-* Criação de Painéis (Dashboards)
-* Integração com o Ecossistema (DataViz Partners)
-* Utilizando o SQL em Notebooks
 
-## Referências
+| 1  | Conceio de Lakehouse, Databricks SQL, Custo eficiente, Menus | 30 min |
+| 2  | Laboratório 01 - Comandos básicos em SQL no  Editor de SQL | 30 min |
+| 3 | Laboratório 02 - Ingestão de CSV, Uso do Notebook e Data Explorer | 30 min |
+| 4 | Laboratório 03 - Consultas avançadas, Query History e Query Profiler | 30 min |
+| 5 | Laboratório 04 - Criação de um Alerta | 30 min |
+| 6 | Laboratório 05 - Criação de um Painel (Dashboard) | 30 min |
+| 7 | Considerações finais e Referências Adicionais | 30 min |
+| 8 | Perguntas e Respostas  | 15 min |
+| 9 | Pesquisa de Satisfação  | 5 min |
+
+
+## Referências Adicionais
 
 * www.databricks.com
 * https://learn.microsoft.com/pt-br/azure/databricks/scenarios/what-is-azure-databricks
@@ -32,9 +31,7 @@ Agradecemos a sua participação e seria importante ter um feedback seu:
 
 ## Comunidade Databricks Brasil
 
-- Junte-se ao canal [Databricks Comunidade Brasil](https://bit.ly/databricks-slack-br) no Slack!
 - Grupo no LinkedIn [Databricks Brasil - Lakehouse 🏠 🇧🇷](https://www.linkedin.com/groups/14100135)
-- Grupo no Meetup [Meetup Databrick Comunidade Brasil](https://www.meetup.com/pt-BR/databricks-brasil-oficial)
 
 </br>
 
