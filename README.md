@@ -7,7 +7,9 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 
 ## Ementa do Curso
 
-| -- | -- | -- |
+Tabela 
+
+| Tópico | Comando | xxx |
 | 1 | Conceio de Lakehouse, Databricks SQL, Custo eficiente, Menus | 30 min |
 | 2 | Laboratório 01 - Comandos básicos em SQL no  Editor de SQL | 30 min |
 | 3 | Laboratório 02 - Ingestão de CSV, Uso do Notebook e Data Explorer | 30 min |
