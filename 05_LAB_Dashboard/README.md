@@ -51,6 +51,8 @@ O resultado esperado é igual ao gráfico abaixo:
 
 ## Exercício 05.03 - Criando o Dashboard
 
+No Menu Lateral, escolha a opção DASHBOARD:
+
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_08.png" style="height: 200px;">
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_09.png" style="height: 200px;">
