@@ -22,6 +22,10 @@ order by dolar_dia DESC;
 
 
 ```
+</br></br>
+Grave a Query.  Sugestão:  "Query_Alert"+ <SEU_LOGIN>
+</br></br>
+
 
 ## Exercício 04.02 - Criando o Alerta
 
@@ -32,6 +36,6 @@ Vamos utilizar a opção do menu  "**ALERT**".
 
 Clique no botão **CREATE** e configure o ALERTA conforme abaixo:
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab04_2.png" style="height: 500px;">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab04_2.png" style="height: 700px;">
 
 
