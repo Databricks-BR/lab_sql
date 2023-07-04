@@ -58,7 +58,7 @@ O resultado esperado é igual ao gráfico abaixo:
 
 </br></br>
 
-Clique novamente no botão "+" e adicione um FILTRO:
+Clique novamente no botão **"+"**, e adicione um FILTRO:
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_09.png" style="height: 150px;">
 
@@ -84,9 +84,13 @@ No Menu Lateral, escolha a opção DASHBOARDS:
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_08.png" style="height: 150px;">
 </br></br>
-Clique na opção "**CREATE DASHBOARD**".
+
+Clique na opção **CREATE DASHBOARD**
+
 </br></br>
-Na tela do Dashboard, clique no botão **ADD**, e escolha a opção:  "**TEXT BOX**".
+</br></br>
+
+Na tela do Dashboard, clique no botão **"ADD"**, e escolha a opção:  "**TEXT BOX**".
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_12.png" style="height: 100px;">
 
@@ -119,7 +123,7 @@ Escolha o nome da Query que foi gravada no exercício anterior.
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_16.png" style="height: 250px;">
 
-Clique novamente no botão ADD, e selecione a opção "FILTER", e configure conforme abaixo:
+Clique novamente no botão ADD, e selecione a opção "**FILTER**", e configure conforme abaixo:
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_17.png" style="height: 200px;">
 
