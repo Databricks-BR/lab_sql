@@ -88,3 +88,40 @@ Filtre as Consultas (p.ex.  Selecione suas próprias Queries):
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_5.png" style="height: 250px;">
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab03_6.png" style="height: 700px;">
+
+
+## Exercício 03.06 - Colocando Comentários na Tabela e nas Colunas
+
+``` sql
+USE CATALOG academy;
+
+USE <seu_nome_login>;
+
+COMMENT ON TABLE silver_empresas IS 'Tabela contendo dados das empresas';
+
+ALTER TABLE silver_empresas ALTER COLUMN cnpj_basico COMMENT 'número do CNPJ raiz de 8 posições';
+ALTER TABLE silver_empresas ALTER COLUMN nome_matriz COMMENT 'Nome da Matriz';
+ALTER TABLE silver_empresas ALTER COLUMN nome_fantasia_empresa COMMENT 'Nome fantasia da empresa';
+ALTER TABLE silver_empresas ALTER COLUMN nome_razao_social COMMENT 'Nome da Razão Social';
+ALTER TABLE silver_empresas ALTER COLUMN cod_situacao_cadastral COMMENT 'Código da Situação Cadastral';
+ALTER TABLE silver_empresas ALTER COLUMN data_situacao_cadastral COMMENT 'Data da Situação Cadastral';
+ALTER TABLE silver_empresas ALTER COLUMN motivo_situacao_cadastral COMMENT 'Motivo da Situação Cadastral';
+ALTER TABLE silver_empresas ALTER COLUMN data_inicio_atividade COMMENT 'Data de início da atividade';
+ALTER TABLE silver_empresas ALTER COLUMN cnae_principal COMMENT 'CNAE Código da Natureza Economica';
+ALTER TABLE silver_empresas ALTER COLUMN cnae_descricao COMMENT 'Descrição do CNAE';
+ALTER TABLE silver_empresas ALTER COLUMN endereco_tipo_logradouro COMMENT 'Endereço - Tipo de Logradouro';
+ALTER TABLE silver_empresas ALTER COLUMN endereco_nome_logradouro COMMENT 'Endereço - Nome do Logradouro';
+ALTER TABLE silver_empresas ALTER COLUMN endereco_numero_logradouro COMMENT 'Endereço - Número do Logradouro';
+ALTER TABLE silver_empresas ALTER COLUMN endereco_bairro_logradouro COMMENT 'Endereço - Bairro do Logradouro';
+ALTER TABLE silver_empresas ALTER COLUMN endereco_numero_cep COMMENT 'Endereço - número do CEP';
+ALTER TABLE silver_empresas ALTER COLUMN endereco_unidade_federativa COMMENT 'Endereço - Unidade Federativa';
+ALTER TABLE silver_empresas ALTER COLUMN codigo_municipio_siafi COMMENT 'Código do Município SIAFI';
+ALTER TABLE silver_empresas ALTER COLUMN cod_natureza_juridica COMMENT 'Código da Natureza Jurídica';
+ALTER TABLE silver_empresas ALTER COLUMN desc_natureza_juridica COMMENT 'Descrição da Natureza Jurídica';
+ALTER TABLE silver_empresas ALTER COLUMN qualificacao_responsavel COMMENT 'Qualificação do Responsável';
+ALTER TABLE silver_empresas ALTER COLUMN val_capital_social COMMENT 'Valor do Capital Social';
+ALTER TABLE silver_empresas ALTER COLUMN cod_porte_empresa COMMENT 'Código do Porte da Empresa';
+ALTER TABLE silver_empresas ALTER COLUMN desc_porte_empresa COMMENT 'Descrição do Porte da Empresa';
+ALTER TABLE silver_empresas ALTER COLUMN ente_federativo_responsavel COMMENT 'Ente Federativo Responsável';
+```
+
