@@ -53,6 +53,7 @@ Agradecemos a sua participação e seria importante ter um feedback seu:
 ## Databricks ACADEMY
 
 Trilhas disponíveis (Learning Plan):
+* What is the Databricks Lakehouse Platform? (ID: E-Q079O1)
 * Databricks SQL for Technical Onboarding (ID: E-VMWR71)
 * Data Analysis with Databricks SQL (ID: E-1QW751)
 
