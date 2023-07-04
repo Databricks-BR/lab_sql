@@ -16,11 +16,14 @@ Vamos utilizar o "Editor SQL".
 
 ``` sql
 
+
 SELECT * FROM academy.SEU_NOME.bronze_dolar;
+
 
 ```
 Resultado da Query:
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_01.png" style="height: 200px;">
+</br></br>
 
 ## Exercício 05.02 - Criando a Visualização e o Filtro
 
@@ -28,30 +31,34 @@ Na barra de resultados, clique no botão **"+"**, e escolha a opção "Visualiza
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_02.png" style="height: 200px;">
 
+</br></br>
 No Visualization Type, escolha "LINE":
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_03.png" style="height: 200px;">
 
+</br></br>
 Na "X Column" (eixo X), escolha a variável  "dolar_dia".
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_04.png" style="height: 200px;">
 
+</br></br>
 Na "Y Columns" (eixo Y), escolha a variável  "dolar_fechamento".</br>
 Escolha também a forma de agregação:  Média (Average).
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_05.png" style="height: 200px;">
 
+</br></br>
 Clique no título da visualização e renomeie para "grafico_dolar".
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_06.png" style="height: 200px;">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_06.png" style="height: 150px;">
 
 O resultado esperado é igual ao gráfico abaixo:
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_07.png" style="height: 200px;">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_07.png" style="height: 500px;">
 
 ## Exercício 05.03 - Criando o Dashboard
 
-No Menu Lateral, escolha a opção DASHBOARD:
+No Menu Lateral, escolha a opção DASHBOARDS:
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_08.png" style="height: 200px;">
 
