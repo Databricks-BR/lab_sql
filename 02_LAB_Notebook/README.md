@@ -11,7 +11,11 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query_) da plataforma Databricks, utilizando a linguagem SQL (e as interfaces visuais), explorando os potenciais Analíticos. </br>
 
 
+## Exercício 2:
 
-
+* Importe o Notebook para o Workspace.
+* Altere a variável com o nome do seu login  (SCHEMA)
+* Execute os comandos do Notebook
+* Visualize os resultados no Data Explorer
 
 
