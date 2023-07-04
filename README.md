@@ -47,3 +47,16 @@ Agradecemos a sua participação e seria importante ter um feedback seu:
 <a href="https://www.databricks.com/resources/ebook/migrating-from-a-data-warehouse-to-a-data-lakehouse"><img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/ebook1.png" style="height: 300px;" ></a> 
 <a href="https://www.databricks.com/resources/ebook/data-lakehouse-is-your-next-data-warehouse"><img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/ebook2.png" style="height: 300px;"></a> 
 <a href="https://www.databricks.com/resources/ebook/rise-data-lakehouse"><img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/ebook3.png" style="height: 300px;"></a> 
+
+</br></br>
+
+## Databricks ACADEMY
+
+Trilhas disponíveis (Learning Plan):
+* Databricks SQL for Technical Onboarding (ID: E-VMWR71)
+* Data Analysis with Databricks SQL (ID: E-1QW751)
+
+Hot Site: Data Analysis with Databricks SQL 
+* https://www.databricks.com/learn/training/catalog/data-analysis
+
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/trilha_academy.png" style="height: 300px;">  
