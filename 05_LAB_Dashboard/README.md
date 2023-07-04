@@ -75,5 +75,5 @@ No Menu Lateral, escolha a opção DASHBOARDS:
 
 ![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_dolar.png)
 
-
+![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.png)
 ```
