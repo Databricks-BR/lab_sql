@@ -7,8 +7,7 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 
 ## Objetivos do Exercício
 
-O objetivo desse laboratório é explorar as funcionalidade de criação de um ALERTAl</br>
-</br>
+O objetivo desse laboratório é explorar as funcionalidade de criação de um ALERTA</br>
 
 </br></br>
 
