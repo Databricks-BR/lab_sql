@@ -32,8 +32,11 @@ Vamos utilizar a opção do menu  "**ALERT**".
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab04_1.png" style="height: 200px;">
 
+</br></br>
 
 Clique no botão **CREATE** e configure o ALERTA conforme abaixo:
+
+</br></br>
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab04_2.png" style="height: 700px;">
 
