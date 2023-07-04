@@ -98,19 +98,20 @@ No campo texto, digite conforme abaixo:
 
 ``` md
 
+![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.png)
 
-![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_dolar.png)
 
 ```
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_13.png" style="height: 200px;">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_13.png" style="height: 300px;">
 
 Repita a operação.  Clique no botão **ADD**, e novamente a opção "Text Box".  Digite conforme abaixo:
 
 ``` md
 
 
-![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.png)
+![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_dolar.png)
+
 ```
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_14.png" style="height: 200px;">
