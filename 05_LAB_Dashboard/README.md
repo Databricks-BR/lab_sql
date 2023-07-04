@@ -60,18 +60,18 @@ O resultado esperado é igual ao gráfico abaixo:
 
 Clique novamente no botão "+" e adicione um FILTRO:
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_09.png" style="height: 200px;">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_09.png" style="height: 150px;">
 
 </br></br>
 
 Escolha a coluna "dolar_ano" para utilizar no FILTRO:
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_10.png" style="height: 250px;">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_10.png" style="height: 300px;">
 
 </br></br>
 Resultado ficará como abaixo:
 
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_11.png" style="height: 300px;">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_11.png" style="height: 250px;">
 
 </br></br>
 
@@ -88,14 +88,28 @@ Clique na opção "CREATE":
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_12.png" style="height: 200px;">
 
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_13.png" style="height: 200px;">
 
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_14.png" style="height: 200px;">
 
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_15.png" style="height: 200px;">
 
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_16.png" style="height: 200px;">
+
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_17.png" style="height: 200px;">
 
 ``` md
 
 
 ![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_dolar.png)
 
+```
+
+
+``` md
+
+
 ![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_handson_sql.png)
 ```
+
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_final.png" style="height: 700px;">
