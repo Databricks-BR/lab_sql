@@ -65,3 +65,15 @@ No Menu Lateral, escolha a opção DASHBOARDS:
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_09.png" style="height: 200px;">
 
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab05_10.png" style="height: 200px;">
+
+
+
+
+
+``` md
+
+
+![alt text](https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/header_dolar.png)
+
+
+```
