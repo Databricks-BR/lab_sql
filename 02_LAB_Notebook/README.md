@@ -45,6 +45,9 @@ Execute os comandos do Notebook, clicando no botão "RUN ALL".
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_4.png">
 </br></br> </br> </br>
-Visualize os resultados no Data Explorer
+Visualize os resultados no Data Explorer:
+
+</br></br>
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_5.png">
 
 
