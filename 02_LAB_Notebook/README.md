@@ -18,4 +18,7 @@ O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query
 * Execute os comandos do Notebook
 * Visualize os resultados no Data Explorer
 
-
+'''
+html
+https://github.com/Databricks-BR/lab_sql/blob/main/02_LAB_Notebook/lab02_01_carga_csv.ipynb
+'''
