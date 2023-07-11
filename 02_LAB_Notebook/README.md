@@ -8,17 +8,43 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 
 ## Objetivos do Exercício
 
-O objetivo desse laboratório é conhecer as funcionalidades de consulta (_Query_) da plataforma Databricks, utilizando a linguagem SQL (e as interfaces visuais), explorando os potenciais Analíticos. </br>
+Nesse exercício vamos importar um Notebook (em linguagem Python) para copiar as bases de dados no formato CSV (texto separado por vírgulas), que serão utilizados nos próximos exercícios.
+ </br>
 
 
 ## Exercício 2:
 
-* Importe o Notebook para o Workspace.
-* Altere a variável com o nome do seu login  (SCHEMA)
-* Execute os comandos do Notebook
-* Visualize os resultados no Data Explorer
+* Escolha a opção do MENU:  "Workspace", conforme figura abaixo.</br>
+* Selecione o seu login no Workspace.</br>
+* Clique com o botão direito do mouse na área destacada.</br>
+* Selecione a opção IMPORTAR.</br>
 
-'''
-html
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_1.png">
+</br></br>
+Na janela de importação, clique na opção "**URL**".
+
+No campo texto da URL, digite o endereço do LINK destacado abaixo:
+
+``` html
+
+
 https://github.com/Databricks-BR/lab_sql/blob/main/02_LAB_Notebook/lab02_01_carga_csv.ipynb
-'''
+
+
+```
+Conforme a figura abaixo:
+</br></br>
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_2.png">
+</br></br>
+Altere a variável com o nome do seu login  (SCHEMA), conforme ficgura abaixo.
+OBS:  Não esqueça de tirar o caracter "#" (jogo da velha) da frente da linha.
+</br></br>
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_3.png">
+</br></br>
+Execute os comandos do Notebook, clicando no botão "RUN ALL".
+</br></br>
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_4.png">
+</br></br>
+Visualize os resultados no Data Explorer
+
+
