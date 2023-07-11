@@ -36,8 +36,9 @@ Conforme a figura abaixo:
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_2.png" style="height: 250px;">>
 </br></br>
-Altere a variável com o nome do seu login  (SCHEMA), conforme ficgura abaixo.
-OBS:  Não esqueça de tirar o caracter "#" (jogo da velha) da frente da linha.
+* Altere a variável com o nome do seu login  (SCHEMA), conforme ficgura abaixo.
+* Não esqueça de tirar o caracter "#" (jogo da velha) da frente da linha.
+* Verifique se o Cluster (máquina virtual que executará o processo) está Atachada (barra superior ao lado do botão "Run All"). 
 </br></br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_3.png" style="height: 200px;">>
 </br></br>
