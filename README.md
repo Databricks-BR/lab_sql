@@ -28,10 +28,7 @@ Treinamento Hands-on na plataforma Databricks com foco nas funcionalidades de An
 * [SQL Language reference - Inglês](https://docs.databricks.com/sql/language-manual/index.html)
 * [SQL Language reference - Português](https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual)
 
-## Pesquisa de Satisfação
 
-Agradecemos a sua participação e seria importante ter um feedback seu:
-[Preencha a Pesquisa de Satisfação](https://forms.gle/GxG4f5kMB5LTwVYKA)
 
 ## Comunidade Databricks Brasil
 
