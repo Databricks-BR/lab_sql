@@ -34,12 +34,12 @@ https://github.com/Databricks-BR/lab_sql/blob/main/02_LAB_Notebook/lab02_01_carg
 ```
 Conforme a figura abaixo:
 </br></br>
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_2.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_2.png" style="height: 250px;">>
 </br></br>
 Altere a variável com o nome do seu login  (SCHEMA), conforme ficgura abaixo.
 OBS:  Não esqueça de tirar o caracter "#" (jogo da velha) da frente da linha.
 </br></br>
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_3.png">
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/lab02_3.png" style="height: 200px;">>
 </br></br>
 Execute os comandos do Notebook, clicando no botão "RUN ALL".
 </br></br>
