@@ -56,5 +56,5 @@ Trilhas disponíveis (Learning Plan):
 
 Hot Site: Data Analysis with Databricks SQL 
 * https://www.databricks.com/learn/training/catalog/data-analysis
-
+</br>
 <img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/trilha_academy.png" style="height: 300px;">  
